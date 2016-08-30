@@ -1,13 +1,11 @@
-package com.maintenanceassistant.maglass;
+package com.fiixsoftware.fiixglass;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,15 +18,6 @@ import com.google.android.glass.touchpad.GestureDetector;
 import com.google.android.glass.widget.CardBuilder;
 import com.google.android.glass.widget.CardScrollAdapter;
 import com.google.android.glass.widget.CardScrollView;
-import com.ma.cmms.api.client.dto.AssetCategory;
-import com.ma.cmms.api.client.dto.MaintenanceType;
-import com.ma.cmms.api.client.dto.WorkOrderStatus;
-import com.ma.cmms.api.crud.FindRequest;
-import com.ma.cmms.api.crud.FindResponse;
-import com.maintenanceassistant.maglass.adapters.MainAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Jake Uskoski on 2015-07-21.

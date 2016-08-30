@@ -1,9 +1,9 @@
 <resources>
     <!-- Application Title -->
-    <string name="app_name">MA for Glass™</string>
+    <string name="app_name">Fiix Integration for Glass™</string>
 
     <!-- Activity Titles -->
-    <string name="title_activity_main">Maintenance Assistant</string>
+    <string name="title_activity_main">Fiix</string>
     <string name="title_activity_results">Results</string>
     <string name="title_pick_status">Select Status</string>
     <string name="title_view_more_info">View More</string>

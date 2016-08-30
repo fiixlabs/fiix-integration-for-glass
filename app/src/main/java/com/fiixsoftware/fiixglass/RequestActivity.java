@@ -1,4 +1,4 @@
-package com.maintenanceassistant.maglass;
+package com.fiixsoftware.fiixglass;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,7 +29,8 @@ import com.ma.cmms.api.crud.ChangeRequest;
 import com.ma.cmms.api.crud.ChangeResponse;
 import com.ma.cmms.api.crud.FindByIdRequest;
 import com.ma.cmms.api.crud.FindByIdResponse;
-import com.maintenanceassistant.maglass.adapters.MainAdapter;
+import com.fiixsoftware.fiixglass.R;
+import com.fiixsoftware.fiixglass.adapters.MainAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

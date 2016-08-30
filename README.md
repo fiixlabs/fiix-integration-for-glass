@@ -1,5 +1,5 @@
-MA for Glass™
-=============
+Fiix integration for Glass™
+===========================
 - - -
 
 TABLE OF CONTENTS
@@ -22,10 +22,11 @@ TABLE OF CONTENTS
   6.9 [Create Work Request][head0609]  
 7. [Licensing][head0700]  
 9. [Change Log][head0800]  
+  [v1.0.4][v104]  
   [v1.0.3][v103]  
   [v1.0.2][v102]  
   [v1.0.1][v101]  
-  [v1.0.0][v100]
+  [v1.0.0][v100]  
 
 
 <br>
@@ -36,7 +37,8 @@ TABLE OF CONTENTS
 v1.0.0 Created August 14, 2015 by Jake Uskoski  
 v1.0.1 Created August 18, 2015 by Jake Uskoski  
 v1.0.2 Created August 20, 2015 by Jake Uskoski  
-v1.0.3 Created August 20, 2015 by Jake Uskoski
+v1.0.3 Created August 20, 2015 by Jake Uskoski  
+v1.0.4 Created August 29, 2016 by Jake Uskoski  
 
 [Back to Top][BackToTop]
 <br>
@@ -44,12 +46,12 @@ v1.0.3 Created August 20, 2015 by Jake Uskoski
 2 INTRODUCTION
 --------------
 
-MA for Glass is a Google Glass application prototype for use in conjunction with the
-Maintenance Assistant Computerized Maintenance Management System (MA CMMS). MA
-Glass is capable of viewing active work orders, tasks, scheduled maintenance, and
-assets, as well as generating new assets and work orders, linked to the paired
-CMMS. It is meant as a tool for maintenance staff during maintenance and walking,
-as a mobile, hands-free alternative to the MA Mobile App and the browser CMMS.
+Fiix integration for Glass is a Google Glass application prototype for use in
+conjunction with Fiix. Fiix integration for Glass is capable of viewing active
+work orders, tasks, scheduled maintenance, and assets, as well as generating new
+assets and work orders, linked to the paired CMMS. It is meant as a tool for
+maintenance staff during maintenance and walking, as a mobile, hands-free
+alternative to the Fiix mobile app and the browser CMMS.
 
 Glass is a trademark of Google Inc.
 
@@ -67,16 +69,15 @@ about downloading and building the ZXing application for glass, visit their
 [Getting Started][ZXstp] page on their [GitHub repository][ZXing].
 
 This application also requires the Java SE Runtime Environment 8, and uses the
-Maintenance Assistant CMMS client, which depends on the following external
-libraries:
+Fiix CMMS client, which depends on the following external libraries:
 
 * Apache Commons Codec
 * Apache Commons Logging
 * Apache Jakarta HttpClient
 * Jackson JSON processor
 
-These libraries, along with the Maintenance Assistant CMMS client, are packaged
-in the "lib" folder within the project.
+These libraries, along with the Fiix CMMS client, are packaged in the "lib"
+folder within the project.
 
 [Back to Top][BackToTop]
 <br>
@@ -89,16 +90,16 @@ To set up Android Studio for Google Glass, see the following page:
 &nbsp;&nbsp;&nbsp;[GDK Quick Start][AndStp]
   
 On the lower half of the page, there is a setup for beginners. After following
-the steps for preparing your Android Studio, you can either import MA for Glass
-directly from GitHub using the following link:
+the steps for preparing your Android Studio, you can either import the Fiix
+Integration for Glass directly from GitHub using the following link:
 
-&nbsp;&nbsp;&nbsp;[https://github.com/macmms/malabs-ma_glass.git][GitRep]  
+&nbsp;&nbsp;&nbsp;[https://github.com/fiixlabs/fiix-integration-for-glass][GitRep]  
 &nbsp;&nbsp;&nbsp;*Note: The project is built with Gradle.*
 
 Or by downloading a ZIP version of the repository, and extracting it to a folder
 on your computer, from the following link:
 
-&nbsp;&nbsp;&nbsp;[https://github.com/macmms/malabs-ma_glass/archive/master.zip][GitZip]
+&nbsp;&nbsp;&nbsp;[https://github.com/fiixlabs/fiix-integration-for-glass/archive/master.zip][GitZip]
   
 With the files extracted, the project can be imported from your file directory
 as a gradle project.
@@ -109,11 +110,11 @@ as a gradle project.
 5 INSTALLATION
 --------------
 
-The MA for Glass application needs API credentials from the MA CMMS in order to
-function. Three keys and a URL to the CMMS are required. To learn about getting
+The Fiix Integration for Glass application needs API credentials from Fiix in order to
+function. Three keys and a URL to your CMMS are required. To learn about getting
 your API keys, go to the web page:
 
-&nbsp;&nbsp;&nbsp;[https://www.maintenanceassistant.com/api/docs/guide.html][APIdoc]
+&nbsp;&nbsp;&nbsp;[https://www.fiixsoftware.com/api/docs/guide.html][APIdoc]
 
 and see the section "Getting your API Access Keys".
 
@@ -145,7 +146,7 @@ The application will boot up on your Google Glass shortly after.
 
 ### 6.1 Main Menu ###
 
-Once the MA for Glass program is running, a main menu screen will show. From this
+Once Fiix Integration for Glass is running, a main menu screen will show. From this
 menu, the user can either open the menu by tapping the Google Glass touchpad
 once, or by saying "ok glass" loud enough for the microphone to hear.
 
@@ -320,8 +321,7 @@ There are no further options from Create Work Request.
 7 LICENSING
 -----------
 
-The Maintenance Assistant CMMSclient for Java is licensed under the Apache
-License 2.0.
+The Fiix CMMS client for Java is licensed under the Apache License 2.0.
 
 See [LICENSE.txt][LCN] and [NOTICE.txt][NTC] files for
 more information.
@@ -333,6 +333,11 @@ Glass is a trademark of Google Inc.
 
 8 CHANGE LOG
 ------------
+
+### v1.0.4 ###
+* Altering documentation and files to reflect rebranding
+
+[Back to Top][BackToTop]
 
 ### v1.0.3 ###
 * Changed "Generate Work Order" to "Create Work Request"
@@ -354,12 +359,16 @@ Glass is a trademark of Google Inc.
 * Bug Fixes
 * Updated the README to reflect the changes
 
+[Back to Top][BackToTop]
+
 ### v1.0.1 ###
 * Code cleanup
 * README corrections
 * Bug fixes
 * Removed web-based image loading
 * Name change due to branding
+
+[Back to Top][BackToTop]
 
 ### v1.0.0 ###
 
@@ -393,17 +402,18 @@ Glass is a trademark of Google Inc.
 [v101]: #v101
 [v102]: #v102
 [v103]: #v103
+[v104]: #v104
 
 [AndStd]: https://developer.android.com/sdk/index.html
 [AndStp]: https://developers.google.com/glass/develop/gdk/quick-start?hl=en
 [ZXing]: https://github.com/zxing/zxing
 [ZXstp]: https://github.com/zxing/zxing/wiki/Getting-Started-Developing
-[GitRep]: https://github.com/macmms/malabs-ma_glass
-[GitZip]: https://github.com/macmms/malabs-ma_glass/archive/master.zip
-[APIdoc]: https://www.maintenanceassistant.com/api/docs/guide.html
+[GitRep]: https://github.com/fiixlabs/fiix-integration-for-glass
+[GitZip]: https://github.com/fiixlabs/fiix-integration-for-glass/archive/master.zip
+[APIdoc]: https://www.fiixsoftware.com/api/docs/guide.html
 
 [LCN]: LICENSE.txt
 [NTC]: NOTICE.txt
 [STR]: app/src/main/res/values/strings.xml
 
-[BackToTop]: #ma-for-glass
+[BackToTop]: #fiix-integration-for-glass

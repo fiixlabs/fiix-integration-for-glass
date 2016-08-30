@@ -1,4 +1,4 @@
-package com.maintenanceassistant.maglass.models;
+package com.fiixsoftware.fiixglass.models;
 
 import java.io.Serializable;
 

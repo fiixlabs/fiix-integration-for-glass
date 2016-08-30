@@ -1,11 +1,11 @@
-package com.maintenanceassistant.maglass.adapters;
+package com.fiixsoftware.fiixglass.adapters;
 
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.glass.widget.CardBuilder;
 import com.google.android.glass.widget.CardScrollAdapter;
-import com.maintenanceassistant.maglass.models.DeveloperModel;
+import com.fiixsoftware.fiixglass.models.DeveloperModel;
 
 import java.util.List;
 

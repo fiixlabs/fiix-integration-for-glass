@@ -1,4 +1,4 @@
-package com.maintenanceassistant.maglass;
+package com.fiixsoftware.fiixglass;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

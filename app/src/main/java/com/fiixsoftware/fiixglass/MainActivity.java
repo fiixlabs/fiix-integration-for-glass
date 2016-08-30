@@ -1,4 +1,4 @@
-package com.maintenanceassistant.maglass;
+package com.fiixsoftware.fiixglass;
 
 import com.google.android.glass.media.Sounds;
 import com.google.android.glass.touchpad.Gesture;
@@ -16,6 +16,7 @@ import com.ma.cmms.api.crud.AddResponse;
 import com.ma.cmms.api.crud.FindFilter;
 import com.ma.cmms.api.crud.FindRequest;
 import com.ma.cmms.api.crud.FindResponse;
+import com.fiixsoftware.fiixglass.R;
 
 import android.app.Activity;
 import android.content.Context;
